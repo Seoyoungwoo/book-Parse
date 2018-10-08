@@ -12,6 +12,10 @@
 		E51ADE47216AEA4400D4A0BB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E51ADE45216AEA4400D4A0BB /* Main.storyboard */; };
 		E51ADE49216AEA4A00D4A0BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E51ADE48216AEA4A00D4A0BB /* Assets.xcassets */; };
 		E51ADE4C216AEA4A00D4A0BB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E51ADE4A216AEA4A00D4A0BB /* LaunchScreen.storyboard */; };
+		E51ADE56216AEBF700D4A0BB /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E51ADE55216AEBF700D4A0BB /* TableViewCell.swift */; };
+		E51ADE58216AECEE00D4A0BB /* BookData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E51ADE57216AECEE00D4A0BB /* BookData.swift */; };
+		E51ADE5C216AF06100D4A0BB /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E51ADE5B216AF06100D4A0BB /* TableViewController.swift */; };
+		E51ADE5E216AF48000D4A0BB /* book.xml in Resources */ = {isa = PBXBuildFile; fileRef = E51ADE5D216AF48000D4A0BB /* book.xml */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		E51ADE48216AEA4A00D4A0BB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E51ADE4B216AEA4A00D4A0BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E51ADE4D216AEA4A00D4A0BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E51ADE55216AEBF700D4A0BB /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		E51ADE57216AECEE00D4A0BB /* BookData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookData.swift; sourceTree = "<group>"; };
+		E51ADE5B216AF06100D4A0BB /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		E51ADE5D216AF48000D4A0BB /* book.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = book.xml; path = ../../book_XML_Parsing_Data_Class/book_XML_Parsing_Data_Class/book.xml; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,11 +63,15 @@
 			isa = PBXGroup;
 			children = (
 				E51ADE41216AEA4400D4A0BB /* AppDelegate.swift */,
+				E51ADE5D216AF48000D4A0BB /* book.xml */,
 				E51ADE43216AEA4400D4A0BB /* ViewController.swift */,
 				E51ADE45216AEA4400D4A0BB /* Main.storyboard */,
 				E51ADE48216AEA4A00D4A0BB /* Assets.xcassets */,
 				E51ADE4A216AEA4A00D4A0BB /* LaunchScreen.storyboard */,
 				E51ADE4D216AEA4A00D4A0BB /* Info.plist */,
+				E51ADE55216AEBF700D4A0BB /* TableViewCell.swift */,
+				E51ADE57216AECEE00D4A0BB /* BookData.swift */,
+				E51ADE5B216AF06100D4A0BB /* TableViewController.swift */,
 			);
 			path = book;
 			sourceTree = "<group>";
@@ -124,6 +136,7 @@
 			files = (
 				E51ADE4C216AEA4A00D4A0BB /* LaunchScreen.storyboard in Resources */,
 				E51ADE49216AEA4A00D4A0BB /* Assets.xcassets in Resources */,
+				E51ADE5E216AF48000D4A0BB /* book.xml in Resources */,
 				E51ADE47216AEA4400D4A0BB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -135,7 +148,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E51ADE56216AEBF700D4A0BB /* TableViewCell.swift in Sources */,
 				E51ADE44216AEA4400D4A0BB /* ViewController.swift in Sources */,
+				E51ADE58216AECEE00D4A0BB /* BookData.swift in Sources */,
+				E51ADE5C216AF06100D4A0BB /* TableViewController.swift in Sources */,
 				E51ADE42216AEA4400D4A0BB /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
